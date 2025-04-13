@@ -1,8 +1,25 @@
-# React + Vite
+# 🛍️ FakeApi Webshop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My first React project — a simple webshop built with [React](https://react.dev/), [TanStack Router](https://tanstack.com/router), and a fake API for fetching product data.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧭 Client-side routing with TanStack Router
+- 📦 Fetches and displays products from a fake API
+- 🛒 Webshop layout to simulate a product listing experience
+- ⚡️ Built using [Vite](https://vitejs.dev/) for fast development
+
+## 🛠️ Tech Stack
+
+- React
+- TanStack Router
+- Vite
+- Fake Store API (or any other mock API)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/JanisSeibutis/FakeApi-Webshop.git
+cd FakeApi-Webshop
+npm install
+npm run dev
