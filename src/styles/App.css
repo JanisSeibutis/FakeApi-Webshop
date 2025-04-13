@@ -1,0 +1,19 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    width: 100vw;
+  }
+}

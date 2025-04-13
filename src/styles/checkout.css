@@ -1,0 +1,48 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-summary {
+  order: 2;
+  right: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.user-field {
+  display: flex;
+  flex-direction: column;
+}
+
+#street,
+#city,
+#zipcode,
+#country,
+#phone {
+  height: 25px;
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+#name,
+#lastname {
+  height: 25px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  width: 143px;
+  padding: 2;
+  font-size: 16px;
+}
+@media (min-width: 900px) {
+  .checkout {
+    flex-direction: row;
+  }
+  .order-summary {
+    position: absolute;
+  }
+}
